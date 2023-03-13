@@ -1,0 +1,70 @@
+/*INICIA SERVICIOS*/
+@media (max-width:768px){
+    .globServicios{
+        margin-bottom: 8%;
+        > div{
+            @include centrado-full;
+            flex-direction: column;
+            //Necesitas equipo?
+            h2{
+                font-size: 24px;
+            }
+            p{
+                font-size: 16px;
+            }
+    
+        }
+        section{
+            margin-top: 15px;
+            margin-left: 5%;
+            margin-right: 5%;
+            font-size: 16px;
+    
+            //imagenes
+            .servImgH{
+                @include img-servicios-768;
+                width: 400px;
+                height: 250px;
+            }
+            
+            .servImgV{
+                @include img-servicios-768;
+                width: 350px;
+                height: 400px;
+            }
+    
+            >div{
+                position: relative;
+                background-color: transparent;
+                border-bottom: none;
+
+                //categorias de servicio
+                button{
+                font-size: 20px;
+                }
+    
+                h2{
+                    margin-right: 900px;
+                    width: 40%;
+                }
+            }
+    
+            ul{
+                margin-left: 15px;
+                padding-left: 10px;
+            }
+        }
+    }
+    .banServ {
+        height: 200px;
+    }
+    
+    .tracking-in-expand-fwd {
+        font-size: 32px;
+        position: absolute;
+        top: 150px;
+        left: 20%;
+        @include centrado-full;
+    }
+    }
+/*FIN DE SERVICIOS*/

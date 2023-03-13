@@ -1,0 +1,32 @@
+/*INICIA INDEX*/
+@media (max-width:768px){
+
+
+.esloganInicio{
+    h1{
+        @include h1-768;
+        @include centrado-full;
+        height: 200px;
+    }
+}
+
+.nclientes{
+    font-size: 28px;
+
+}
+.carousel{
+    margin-bottom: 30px;
+    & .carousel-inner{
+        div{
+            ul{
+                gap: 50px;
+
+                img{
+                    width: 100px;
+                    height: 100px;
+                }
+            }
+        }
+    }
+}
+}

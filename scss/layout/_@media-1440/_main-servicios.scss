@@ -1,0 +1,133 @@
+/*INICIA SERVICIOS*/
+.globServicios{
+    font-family: $font;
+    margin-bottom: 8%;
+    /*h1{
+        display: none;
+    }*/
+    > div{
+        @include centrado-full;
+        flex-direction: column;
+        font-size: 24px;
+        p{
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+
+        h2{
+            font-size: 36px;
+            font-weight: 700;
+            
+            &:first-child{
+                margin-top: 1%;
+            }
+
+            &:nth-child(2){
+                color: $main-color;
+            }
+        }
+    }
+    section{
+        margin-top: 15px;
+        margin-left: 100px;
+        margin-right: 100px;
+        font-size: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+
+        .servMostrar {
+            display:none;
+        }
+
+        .servImgH{
+            @include img-servicios;
+            width: 600px;
+            height: 450px;
+            @include grow;
+        }
+        
+        .servImgV{
+            @include img-servicios;
+            width: 400px;
+            height: 600px;
+            @include grow;
+        }
+
+        >div{
+            position: relative;
+            background-color: transparent;
+            border-bottom: none;
+            div{
+                .servH{
+                    & li:hover .servImgH{
+                        display: flex;
+                    }
+                    & li:hover .servImgV{
+                    display: flex;
+                }
+            }
+                .servV{
+                    & li:hover .servImgH{
+                        display: flex;
+                    }
+                    & li:hover .servImgV{
+                    display: flex;
+                }
+                }
+            }
+
+            button{
+            font-size: 32px;
+            background-color: transparent;
+            font-weight: 700;
+            }
+
+            h2{
+                border-width: thin;
+                border-style: solid;
+                margin-right: 900px;
+                border-right-style: none;
+                border-left-style: none;
+            }
+        }
+
+        ul{
+            margin-left: 30px;
+            list-style-type: none;
+        }
+        li:hover{
+            color: #26348C;
+            font-weight: 700;
+            cursor: pointer;
+
+        }
+    }
+}
+.banServ {
+    width: 100%;
+    height: 400px;
+    background: url(../assets/img/baner/baner-serv3.jpeg) fixed center no-repeat;
+    background-size: cover;
+
+        -webkit-animation: banserv 1.2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+                animation: banserv 1.2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+
+            }
+
+.tracking-in-expand-fwd {
+    @include centrado-full;
+    @include h1;
+    text-shadow: 2px 2px black;
+    text-transform: uppercase;
+    backdrop-filter: none;
+    color: white;
+    font-size: 64px;
+    position: absolute;
+    left: 20%;
+    top: 250px;
+    z-index: 2;
+    -webkit-animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+            animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+/*FIN DE SERVICIOS*/

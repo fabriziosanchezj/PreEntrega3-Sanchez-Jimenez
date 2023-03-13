@@ -1,0 +1,58 @@
+/*INICIA CONTACTO*/
+@media (max-width: 1024px) {
+    .glbCont{
+        h1{
+            @include h1-1024;
+        }
+        a{
+            font-size: 18px;
+        }
+    }
+    
+    .Ct{
+        margin-top: 30px;
+        h2{
+            font-size: 24px;
+        }
+
+        .grid-red{
+            li{
+                margin-bottom: 20px;
+            }
+            img{
+                width: 30px;
+                height: 30px;
+                margin-right: 20px;
+            }
+        }
+        .grid-mail{
+            img{
+                width: 30px;
+                height: 30px;
+                margin-right: 20px;
+            }
+            a{
+                font-size: 18px;
+            }
+        }
+    }
+    
+    .grid-mapas{
+    
+        gap: 50px 15px;
+        .direc1{
+            font-size: 16px;
+        }
+        .direc2{
+            font-size: 16px;
+        }
+        .mapa1{
+            width: 400px;
+            height: 300px;
+        }
+        .mapa2{
+            width: 400px;
+            height: 300px;
+        }
+    }
+    }

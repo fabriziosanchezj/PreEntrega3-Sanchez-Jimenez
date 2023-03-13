@@ -1,0 +1,52 @@
+/*INICIA INDEX*/
+.banerX{
+    background-color: black;
+    width: 100%;
+    @include centrado-full;
+
+    div{
+        width: 100%;
+        margin: auto;
+        overflow: hidden;
+
+        ul{
+            padding: 0;
+            display: flex;
+            width: 300%;
+            margin-bottom: 0;
+            
+            animation: cambio 24s infinite alternate;
+        }
+        li{
+            list-style: none;
+            width: 100%;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+        img{
+            width: 100%;
+        }
+    }
+}
+
+.esloganInicio{
+    background-color: $main-color;
+    color: white;
+
+    h1{
+        width: 100%;
+        height: 242px;
+        @include h1;
+        @include centrado-full;
+    }
+}
+
+.nclientes{
+    @include centrado-full;
+    font-family: $font;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+

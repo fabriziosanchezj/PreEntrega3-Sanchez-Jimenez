@@ -1,0 +1,191 @@
+/* INICIA LONAS*/
+.globalLonas{
+    font-family: $font;
+    margin-bottom: 3%;
+    img{
+        width: 100%;
+    }
+    p{
+        margin-bottom: 0;
+    }
+    h1{
+        @include h1;
+        @include centrado-full;
+        font-size: 30px;
+        text-transform: uppercase;
+        margin-bottom: 0;
+        margin-top: 5px;
+    }
+    h2{
+        color: $main-color;
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 0;
+        text-align: center;
+    }
+    .notasLonas{
+        display: flex;
+        flex-direction: column;
+        margin-top: 1%;
+        text-align: right;
+        margin-right: 5%;
+        font-weight: 600;
+    }
+    .grid-lonas{
+        display: grid;
+        grid-template-columns: 30% repeat(3,15%);
+        grid-template-rows: repeat(11,1fr);
+        align-items: center;
+        justify-content: center;
+        margin-left: 10%;
+        margin-right: 10%;
+        grid-template-areas: 
+        "tabla1 tabla2 tabla3 tabla4"
+        "desc1 unid1 precio1 observ1"
+        "desc2 unid2 precio2 ."
+        "desc3 unid3 precio3 ."
+        "desc4 unid4 precio4 ."
+        "desc5 unid5 precio5 ."
+        "desc6 unid6 precio6 ."
+        "desc7 precio7 precio7 observ2"
+        ". . . ."
+        "desc8 precio8 precio8 ."
+        "desc9 precio8 precio8 ."
+    
+        ;
+
+        h3{
+            font-size: 18.8px;
+            font-weight: 700;
+            margin-bottom: 0;
+            line-height: normal;
+        }
+        div{
+            line-height: normal;
+        }
+
+    }
+}
+        /*DESCRIPCIÓN*/
+        .tabla1{
+            grid-area: tabla1;
+            @include grid-item-lonas;
+        }
+        .desc1{
+            grid-area: desc1;
+            @include grid-item-lonas;
+        }
+        .desc2{
+            grid-area: desc2;
+            @include grid-item-lonas;
+        }
+        .desc3{
+            grid-area: desc3;
+            @include grid-item-lonas;
+        }
+        .desc4{
+            grid-area: desc4;
+            @include grid-item-lonas;
+        }
+        .desc5{
+            grid-area: desc5;
+            @include grid-item-lonas;
+        }
+        .desc6{
+            grid-area: desc6;
+            @include grid-item-lonas;
+        }
+        .desc7{
+            grid-area: desc7;
+            @include grid-item-lonas;
+        }
+        .desc8{
+            grid-area: desc8;
+            @include grid-item-lonas;
+        }
+        .desc9{
+            grid-area: desc9;
+            @include grid-item-lonas;
+        }
+                /* UNIDAD */
+        .tabla2{
+            grid-area: tabla2;
+            @include grid-item-lonas;
+        }
+        .unid1{
+            grid-area: unid1;
+            @include grid-item-lonas;
+        }
+        .unid2{
+            grid-area: unid2;
+            @include grid-item-lonas;
+        }
+        .unid3{
+            grid-area: unid3;
+            @include grid-item-lonas;
+        }
+        .unid4{
+            grid-area: unid4;
+            @include grid-item-lonas;
+        }
+        .unid5{
+            grid-area: unid5;
+            @include grid-item-lonas;
+        }
+        .unid6{
+            grid-area: unid6;
+            @include grid-item-lonas;
+        }
+                /* PRECIO */
+        .tabla3{
+            grid-area: tabla3;
+            @include grid-item-lonas;
+        }
+        .precio1{
+            grid-area: precio1;
+            @include grid-item-lonas;
+        }
+        .precio2{
+            grid-area: precio2;
+            @include grid-item-lonas;
+        }
+        .precio3{
+            grid-area: precio3;
+            @include grid-item-lonas;
+        }
+        .precio4{
+            grid-area: precio4;
+            @include grid-item-lonas;
+        }
+        .precio5{
+            grid-area: precio5;
+            @include grid-item-lonas;
+        }
+        .precio6{
+            grid-area: precio6;
+            @include grid-item-lonas;
+        }
+        .precio7{
+            grid-area: precio7;
+            @include grid-item-lonas;
+        }
+        .precio8{
+            grid-area: precio8;
+            @include grid-item-lonas;
+        }
+        
+                /* OBSERVACIONES */
+        .tabla4{
+            grid-area: tabla4;
+            @include grid-item-lonas;
+        }
+        .observ1{
+            grid-area: observ1;
+            @include grid-item-lonas;
+        }
+        .observ2{
+            grid-area: observ2;
+            @include grid-item-lonas;
+        }
+
+/*FIN DE LONAS*/

@@ -1,0 +1,123 @@
+/* INICIA LONAS*/
+@media (max-width:1024px){
+.globalLonas{
+    margin-bottom: 3%;
+    h1{
+        font-size: 28px;
+        margin-bottom: 0;
+        margin-top: 5px;
+    }
+    h2{
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+    .notasLonas{
+        font-size: 12px;
+    }
+    .grid-lonas{
+        grid-template-columns: 30% repeat(3,1fr);
+        margin-left: 7.5%;
+        margin-right: 7.5%;
+        h3{
+            font-size: 16px;
+        }
+
+    }
+}
+        /*DESCRIPCIÓN*/
+        .desc1{
+            font-size: $grid-item-1024;        
+        }
+        .desc2{
+            font-size: $grid-item-1024;        
+        }
+        .desc3{
+            font-size: $grid-item-1024;
+        }
+        .desc4{
+            font-size: $grid-item-1024;
+        }
+        .desc5{
+            font-size: $grid-item-1024;
+        }
+        .desc6{
+            font-size: $grid-item-1024;
+        }
+        .desc7{
+            font-size: $grid-item-1024;
+        }
+        .desc8{
+            font-size: $grid-item-1024;
+        }
+        .desc9{
+            font-size: $grid-item-1024;
+
+        }
+                /* UNIDAD */
+        .unid1{
+            font-size: $grid-item-1024;
+
+        }
+        .unid2{
+            font-size: $grid-item-1024;
+
+        }
+        .unid3{
+            font-size: $grid-item-1024;
+
+        }
+        .unid4{
+            font-size: $grid-item-1024;
+
+        }
+        .unid5{
+            font-size: $grid-item-1024;
+
+        }
+        .unid6{
+            font-size: $grid-item-1024;
+
+        }
+                /* PRECIO */
+        .precio1{
+            font-size: $grid-item-1024;
+        }
+        .precio2{
+            font-size: $grid-item-1024;
+
+        }
+        .precio3{
+            font-size: $grid-item-1024;
+        }
+        .precio4{
+            font-size: $grid-item-1024;
+
+        }
+        .precio5{
+            font-size: $grid-item-1024;
+
+        }
+        .precio6{
+            font-size: $grid-item-1024;
+
+        }
+        .precio7{
+            font-size: $grid-item-1024;
+
+        }
+        .precio8{
+            font-size: $grid-item-1024;
+
+        }
+        
+                /* OBSERVACIONES */
+        .observ1{
+            font-size: $grid-item-1024;
+
+        }
+        .observ2{
+            font-size: $grid-item-1024;
+
+        }
+    }
+/*FIN DE LONAS*/

@@ -1,0 +1,40 @@
+/*INICIA INDEX*/
+@media (max-width:320px){
+
+
+.esloganInicio{
+    h1{
+        @include h1-425;
+        font-size: 17px;
+        @include centrado-full;
+        height: 100px;
+    }
+}
+
+.nclientes{
+    font-size: 14px;
+}
+.carousel{
+    margin-bottom: 20px;
+    & .carousel-inner{
+        div{
+            ul{
+                gap: 15px;
+
+                img{
+                    width: 40px;
+                    height: 40px;
+                }
+            }
+        }
+    }
+}
+.carousel-control-next-icon{
+    width: 15px;
+    height: 20px;
+}
+.carousel-control-prev-icon{
+    width: 15px;
+    height: 20px;
+}
+}

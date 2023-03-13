@@ -1,0 +1,93 @@
+/*INICIA SERVICIOS*/
+@media (max-width:1024px){
+.globServicios{
+    margin-bottom: 8%;
+    > div{
+        @include centrado-full;
+        flex-direction: column;
+
+        h2{
+            font-size: 28px;
+        }
+        p{
+            font-size: 18px;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+
+    }
+    section{
+        margin-top: 15px;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 20px;
+
+
+        .servImgH{
+            @include img-servicios-1024;
+            width: 500px;
+            height: 300px;
+        }
+        
+        .servImgV{
+            @include img-servicios-1024;
+            width: 400px;
+            height: 600px;
+        }
+
+        >div{
+            position: relative;
+            background-color: transparent;
+            border-bottom: none;
+            div{
+                .servH{
+                    & li:hover .servImgH{
+                        display: flex;
+                    }
+                    & li:hover .servImgV{
+                    display: flex;
+                }
+            }
+                .servV{
+                    & li:hover .servImgH{
+                        display: flex;
+                    }
+                    & li:hover .servImgV{
+                    display: flex;
+                }
+                }
+            }
+            //categorias de servicio
+            button{
+            font-size: 24px;
+            }
+
+            h2{
+                margin-right: 900px;
+                width: 30%;
+            }
+        }
+
+        ul{
+            margin-left: 30px;
+            list-style-type: none;
+        }
+        li:hover{
+            color: $main-color;
+            font-weight: 700;
+        }
+    }
+}
+.banServ {
+    height: 300px;
+            }
+
+.tracking-in-expand-fwd {
+    font-size: 48px;
+    position: absolute;
+    top: 210px;
+    left: 18%;
+    @include centrado-full;
+}
+}
+/*FIN DE SERVICIOS*/

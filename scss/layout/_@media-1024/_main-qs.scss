@@ -1,0 +1,48 @@
+/*INICIA QS*/
+.globQS{
+    font-family: $font;
+    margin-bottom: 3%;
+    margin-top: 2%;
+    h1{
+        display: none;
+    }
+
+    aside{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin-bottom: 30px;
+        
+        img{
+            width: 350px;
+            height: 350px;
+        }
+    }
+    section{
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        > div{
+            margin-bottom: 50px;
+            div{
+                @include centrado-full;
+            }
+        }
+        h2{
+            @include h2;
+            @include centrado-full;
+            margin-bottom: 0;
+
+            &:nth-child(2){
+                color: $main-color
+            }
+        }
+        p{
+            font-size: 22px;
+            width: 100%;
+            margin: 0,5%,0,5%;
+            @include centrado-full;
+        }
+    }
+
+}
+/*FIN DE QS*/

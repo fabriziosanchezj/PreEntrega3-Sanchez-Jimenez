@@ -1,0 +1,35 @@
+/*INICIA QS*/
+@media (max-width:320px){
+    .globQS{
+    
+        aside{
+            gap: 20px;
+            
+            img{
+                width: 100px;
+                height: 100px;
+            }
+        }
+        section{
+            margin-left: 5%;
+            margin-right: 5%;
+            > div{
+                margin-bottom: 30px;
+                div{
+                    @include centrado-full;
+                }
+            }
+            h2{
+                @include h2;
+                font-size: 18px;
+    
+            }
+            p{
+                font-size: 11px;
+            }
+        }
+    }
+
+}
+
+/*FIN DE QS*/

@@ -1,0 +1,137 @@
+@media (max-width:425px){
+    .globServicios{
+        margin-bottom: 8%;
+        > div{
+            @include centrado-full;
+            flex-direction: column;
+            //Necesitas equipo?
+
+            h2{
+                font-size: 20px;
+                &:first-child {
+                    margin-top: 5%;
+                    margin-bottom: 0;
+                }
+            }
+            p{
+                font-size: 14px;
+            }
+    
+        }
+        section{
+            margin-top: 15px;
+            margin-left: 5%;
+            margin-right: 5%;
+            font-size: 16px;
+            gap: 50px;
+    
+            //imagenes
+            .servImgH{
+                @include img-servicios-425;
+                width: 100%;
+                height: $height-img-serv;
+            }
+            
+            .servImgV{
+                @include img-servicios-425;
+                width: 350px;
+                height: 400px;
+            }
+    
+            >div{
+                position: relative;
+                background-color: transparent;
+                border-bottom: none;
+
+                //categorias de servicio
+                button{
+                font-size: 20px;
+                }
+    
+                h2{
+                    margin-right: 900px;
+                    width: 100%; //bordes
+                }
+            }
+    
+            ul{
+                padding-left: $img-serv-responsive;
+                margin-left: 0;
+                li{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    .banServ {
+        height: 200px;
+    }
+    
+    .tracking-in-expand-fwd {
+        font-size: 32px;
+        position: absolute;
+        top: 125px;
+        left: 3%;
+        @include centrado-full;
+    }
+    // .servH{
+    //     height:$height-img-serv +$height-img-serv -$accordion-header-height;
+    // }
+    .accordion-header{
+        height: $accordion-header-height;
+    }
+    .accordion{
+        >div{
+            
+            &:first-child{
+                div{
+                    height: 350px;
+                }
+                img{
+                    margin-top: $height-img-serv+30px;
+                }
+            }
+            &:nth-child(2){
+                div{
+                    height: 320px;
+                }
+                img{
+                    margin-top: $height-img-serv;
+                }
+            }
+            &:nth-child(3){
+                div{
+                    height: 250px;
+                }
+                img{
+                    margin-top: 140px;
+                }
+            }
+            &:nth-child(4){
+                div{
+                    height: 240px;
+                }
+                img{
+                    margin-top: 120px;
+                }
+            }
+            &:nth-child(5){
+                div{
+                    height: 360px;
+                }
+                img{
+                    margin-top: 260px;
+                }
+            }
+            &:nth-child(6){
+                div{
+                    height: 350px;
+                }
+                img{
+                    margin-top: 200px;
+                }
+            }
+        }
+    }
+}
+/*FIN DE SERVICIOS*/

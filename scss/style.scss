@@ -1,0 +1,74 @@
+@import "./utilities/variables";
+@import "./utilities/mixins";
+@import "./utilities/functions";
+
+@import "./components/bootstrap";
+
+@import "./base/_reset.scss";
+@import "./base/typo";
+@import "./base/fondo";
+
+@import "./layout/_@media-1440/header";
+
+@import "./layout/_@media-1440/main-index";
+@import "./layout/_@media-1440/main-qs";
+@import "./layout/_@media-1440/main-servicios";
+@import "./layout/_@media-1440/main-lonas";
+@import "./layout/_@media-1440/main-contactos";
+
+@import "./layout/_@media-1440/footer";
+
+/*LAPTOP 1024px*/
+@import "./layout/_@media-1024/header";
+
+@import "./layout/_@media-1024/main-index";
+@import "./layout/_@media-1024/main-qs";
+@import "./layout/_@media-1024/main-servicios";
+@import "./layout/_@media-1024/main-lonas";
+@import "./layout/_@media-1024/main-contactos";
+
+@import "./layout/_@media-1024/footer";
+
+/*TABLET 768px*/
+@import "./layout/_@media-768/header";
+
+@import "./layout/_@media-768/main-index";
+@import "./layout/_@media-768/main-qs";
+@import "./layout/_@media-768/main-servicios";
+@import "./layout/_@media-768/main-lonas";
+@import "./layout/_@media-768/main-contactos";
+
+@import "./layout/_@media-768/footer";
+
+/*MOBILE L 425px*/
+@import "./layout/_@media-425/header";
+
+@import "./layout/_@media-425/main-index";
+@import "./layout/_@media-425/main-qs";
+@import "./layout/_@media-425/main-servicios";
+@import "./layout/_@media-425/main-lonas";
+@import "./layout/_@media-425/main-contactos";
+
+@import "./layout/_@media-425/footer";
+
+/*MOBILE M 375px*/
+@import "./layout/_@media-375/header";
+
+@import "./layout/_@media-375/main-index";
+@import "./layout/_@media-375/main-qs";
+@import "./layout/_@media-375/main-servicios";
+@import "./layout/_@media-375/main-lonas";
+@import "./layout/_@media-375/main-contactos";
+
+@import "./layout/_@media-375/footer";
+
+/*MOBILE S 320px*/
+@import "./layout/_@media-320/header";
+
+@import "./layout/_@media-320/main-index";
+@import "./layout/_@media-320/main-qs";
+@import "./layout/_@media-320/main-servicios";
+@import "./layout/_@media-320/main-lonas";
+@import "./layout/_@media-320/main-contactos";
+
+@import "./layout/_@media-320/footer";

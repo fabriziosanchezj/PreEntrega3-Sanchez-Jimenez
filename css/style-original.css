@@ -1,0 +1,1663 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+@keyframes cambio {
+    0% {margin-left: 0;}
+    35% {margin-left: 0;}
+    
+    40% {margin-left: -100%;}
+    75% {margin-left: -100%;}
+
+    80% {margin-left: -200%;}
+    100% {margin-left: -200%;}
+}
+
+/*
+color: #26348C 
+
+font-family: 'Montserrat', sans-serif;
+
+background-color: white
+linear-gradient:
+
+*/
+
+/*GENERAL*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fondo{
+    background: linear-gradient(white, rgb(223, 222, 222));
+} 
+
+.h1Invisible{
+    display: none;
+}
+
+.titColor{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.color2Tit{
+    color: #26348C;
+    margin-left: 7px;
+}
+
+.letraAzul{
+    color: #26348C;
+}
+.asides{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.asides img{
+    width: 350px;
+    height: 350px;
+}
+
+/* HEADER Y BARRA DE NAV */
+header {
+    background-color: #26348C;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    height: 90px;
+    margin-left: -3%;
+}
+
+nav{
+    margin-right: 5%;
+}
+
+.navBar {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin: 0;
+}
+.navBar li{
+    display: flex;
+    align-items: center;
+}
+
+.navBar li a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    font-style:normal;
+    font-weight: 700;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.navBar li a:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+    font-size: 21px;
+}
+
+.navbar-desktop{
+    background-color: #26348C;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-tablet{
+    display: none;
+}
+
+/* TERMINA BARRA DE NAV */
+
+/* EMPIEZA INICIO */
+    /*BANER*/
+
+.sliderX{
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+.sliderX ul{
+    padding: 0;
+    display: flex;
+    width: 300%;
+    margin-bottom: 0;
+    
+    animation: cambio 24s infinite alternate;
+}
+    .sliderX li{
+    list-style: none;
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    }
+    
+.sliderX img{
+    width: 100%;
+}
+    
+    
+.banerX{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.esloganInicio{
+    display: flex;
+    background-color: #26348C;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.esloganInicio h1{
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    height: 242px;
+    font-size: 48px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    /*TERMINA BANER*/
+    /*CLIENTES*/
+
+.nclientes {
+    display: flex;
+    margin-top: 3%;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 3%;
+}
+
+.carousel{
+    margin-bottom: 100px;
+}
+.clientes-slider{
+    justify-content: center;
+    gap: 100px;
+    list-style: none;
+    padding-left: 0;
+}
+.clientes-slider img{
+    width: 200px;
+    height: 200px;
+    padding: -30px;
+}
+
+.circle50 img{
+    border-radius: 50%;
+}
+.carousel-item{
+    transition: none;
+}
+
+.carousel-control-next-icon{
+    background-color: #26348C ;
+}
+.carousel-control-prev-icon{
+    background-color: #26348C ;
+}
+
+/* TERMINA INICIO */
+
+/* EMPIZA ¿QUIENES SOMOS? */
+.globQS{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+.globQS h2{
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.margQS h2{
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+}
+
+.margQS h2:nth-child(2){
+    color: #26348C;
+}
+.margQS{
+    margin-left: 5%;
+}
+
+.margQS p{
+    margin-left: 2%;
+    font-size: 22px;
+    width: 90%;
+    height: auto
+}
+
+
+.margQS div:nth-child(5){
+    margin-bottom: 30px;
+}
+.margQS div:nth-child(2){
+    margin-bottom: 30px;
+}
+.margQS div:nth-child(3){
+    margin-bottom: 30px;
+}
+.margQS div:nth-child(4){
+    margin-bottom: 30px;
+}
+
+.margQS p {
+    position:relative;
+    
+}
+/* TERMINA ¿QUINES SOMOS? */
+
+/* EMPIEZA SERVICIOS PARA EVENTOS*/
+.globServicios{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+.serviciosTitulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+}
+
+.serviciosTitulo h2{
+    font-size: 36px;
+    font-weight: 700;
+}
+.serviciosFlex{
+    display: flex;
+}
+
+.serv{
+    margin-top: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.serv div:hover .servMostrar{
+    display:flex;
+    flex-direction: column;
+}
+.servMostrar {
+    display:none;
+}
+
+
+.serv ul{
+    margin-left: 30px;
+    list-style-type: none;
+}
+
+    /*COLOR AL SELECCIONAR*/
+.serv li:hover{
+    color: #26348C;
+    font-weight: 700;
+    cursor: pointer;
+}
+    /*  IMG HORIZONTALES */
+
+.servH li:hover .servImgH{
+    display: flex;
+}
+
+.servImgH{
+    display: none;
+    width: 600px;
+    height: 400px;
+    margin-left: 700px;
+    position: absolute;
+    top: 0; 
+    border: black solid 2px;
+    box-shadow: rgb(192, 190, 190) 15px 15px 10px;
+
+    transition: .5s, color .10s;
+    -webkit-transition: .5s, color .10s;
+    -moz-transition: .5s, color .10s;
+}
+
+.servImgH:hover{
+    transform: scale3d(1.1, 1.1, 0.3);
+    -webkit-transform: scale3d(1.1, 1.1, 0.3);
+    -moz-transform: scale3d(1.1, 1.1, 0.3);
+    }
+
+    /*  IMG VERTICALES */
+.servV li:hover .servImgV{
+    display: flex;
+} 
+.servV li:hover .servImgH{
+    display: flex;
+} 
+.servImgV{
+    display: none;
+    width: 400px;
+    height: 600px;
+    margin-left: 700px;
+    position: absolute;
+    top: 0;
+    border: black solid 2px;
+    box-shadow: rgb(192, 190, 190) 15px 15px 10px;
+
+    transition: .5s, color .10s;
+    -webkit-transition: .5s, color .10s;
+    -moz-transition: .5s, color .10s;
+}
+
+.servImgV:hover{
+    transform: scale3d(1.1, 1.1, 0.3);
+    -webkit-transform: scale3d(1.1, 1.1, 0.3);
+    -moz-transform: scale3d(1.1, 1.1, 0.3);
+    }
+    /*BORDES DE TITULOS */
+.svc{
+    position: relative;
+    background-color: transparent;
+    border-bottom: none;
+}
+.svc h2{
+    border-width: thin;
+    border-style: solid;
+    margin-right: 900px;
+    border-right-style: none;
+    border-left-style: none;
+}
+.accordion-button{
+    font-size: 32px;
+    background-color: transparent;
+    font-weight: 700;
+}
+/* TERMINA SERVICIOS PARA EVENTOS*/
+
+/* EMPIEZA LONAS */
+.globalLonas{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 3%;
+}
+.globalLonas p{
+    margin-bottom: 0;
+}
+.tituloLonas{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+.banerLonas img{
+    width: 100%;
+}
+
+.listaPreciosLonas{
+    text-align: center;
+    color: #26348C;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.tablaPreciosLonas{
+    display: flex;
+    justify-content: center;
+}
+
+.seccionTabla{
+    text-align: center;
+}
+
+.liTabla{
+    text-align: center;
+    list-style: none;
+}
+
+.notasLonas{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+    text-align: right;
+    margin-right: 5%;
+    font-weight: 600;
+}
+    /*TABLA DE LONAS*/
+.grid-lonas{
+    display: grid;
+    grid-template-columns: 30% repeat(3,15%);
+    grid-template-rows: repeat(11,1fr);
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    grid-template-areas: 
+    "tabla1 tabla2 tabla3 tabla4"
+    "desc1 unid1 precio1 observ1"
+    "desc2 unid2 precio2 ."
+    "desc3 unid3 precio3 ."
+    "desc4 unid4 precio4 ."
+    "desc5 unid5 precio5 ."
+    "desc6 unid6 precio6 ."
+    "desc7 precio7 precio7 observ2"
+    ". . . ."
+    "desc8 precio8 precio8 ."
+    "desc9 precio8 precio8 ."
+
+    ;
+} 
+.grid-lonas h3{
+    font-size: 18.8px;
+    font-weight: 700;
+    margin-bottom: 0;
+    line-height: normal;
+}
+.grid-lonas div{
+    line-height: normal;
+}
+
+        /*DESCRIPCIÓN*/
+.tabla1{
+    grid-area: tabla1;
+    justify-self: center;
+}
+.desc1{
+    grid-area: desc1;
+    justify-self: center;
+    text-align: center;
+}
+.desc2{
+    grid-area: desc2;
+    justify-self: center;
+    text-align: center;
+}
+.desc3{
+    grid-area: desc3;
+    justify-self: center;
+    text-align: center;
+}
+.desc4{
+    grid-area: desc4;
+    justify-self: center;
+    text-align: center;
+}
+.desc5{
+    grid-area: desc5;
+    justify-self: center;
+    text-align: center;
+}
+.desc6{
+    grid-area: desc6;
+    justify-self: center;
+    text-align: center;
+}
+.desc7{
+    grid-area: desc7;
+    justify-self: center;
+    text-align: center;
+}
+.desc8{
+    grid-area: desc8;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+}
+.desc9{
+    grid-area: desc9;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+}
+        /* UNIDAD */
+.tabla2{
+    grid-area: tabla2;
+    justify-self: center;
+}
+.unid1{
+    grid-area: unid1;
+    justify-self: center;
+}
+.unid2{
+    grid-area: unid2;
+    justify-self: center;
+}
+.unid3{
+    grid-area: unid3;
+    justify-self: center;
+}
+.unid4{
+    grid-area: unid4;
+    justify-self: center;
+}
+.unid5{
+    grid-area: unid5;
+    justify-self: center;
+}
+.unid6{
+    grid-area: unid6;
+    justify-self: center;
+}
+        /* PRECIO */
+.tabla3{
+    grid-area: tabla3;
+    justify-self: center;
+}
+.precio1{
+    grid-area: precio1;
+    justify-self: center;
+}
+.precio2{
+    grid-area: precio2;
+    justify-self: center;
+}
+.precio3{
+    grid-area: precio3;
+    justify-self: center;
+}
+.precio4{
+    grid-area: precio4;
+    justify-self: center;
+}
+.precio5{
+    grid-area: precio5;
+    justify-self: center;
+}
+.precio6{
+    grid-area: precio6;
+    justify-self: center;
+}
+.precio7{
+    grid-area: precio7;
+    justify-self: center;
+}
+.precio8{
+    grid-area: precio8;
+    justify-self: center;
+    align-self: center;
+}
+
+        /* OBSERVACIONES */
+.tabla4{
+    grid-area: tabla4;
+    justify-self: center;
+}
+.observ1{
+    grid-area: observ1;
+    justify-self: center;
+}
+.observ2{
+    grid-area: observ2;
+    justify-self: center;
+}
+
+/* TERMINA LONAS */
+
+/*EMPIEZA CONTACTANOS*/
+    /*GLOBAL CONTACTANOS*/
+.glbCont{
+    margin-top: 2%;
+    margin-bottom: 3%;
+    font-family: 'Montserrat', sans-serif;
+}
+.glbCont h1{
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 36px;
+}
+.glbCont ul{
+    padding-left: 0;
+}
+.glbCont li{
+    list-style: none;
+}
+
+.Ct{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+
+.Ct h2{
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 24px;
+}
+    /*TELEFONOS*/
+
+.telf{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.telf div{
+    display: flex;
+}
+.telf li{
+    font-size: 24px;
+}
+
+.telf img{
+    width: 70px;
+    height: 70px;
+}
+
+    /*REDES SOCIALES*/
+
+.redessc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.redessc li{
+    margin-bottom: 20px;
+    
+}
+
+.redessc img {
+    width: 35px;
+    height: 35px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+}
+.redessc a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+    /*MAPAS*/
+
+.visit1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2%;
+    font-weight: 700;
+    font-size: 24px;
+}
+.grid-mapas{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 50px 15px;
+    grid-template: repeat(2,1fr) / 50% 50%;
+    grid-template-areas: 
+    "direc1 mapa1"
+    "direc2 mapa2"
+    ;
+}
+.grid-mapas iframe{
+    justify-self: center;
+}
+.direc1{
+    grid-area: direc1;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    font-weight: 700;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.direc1 p{
+    margin-bottom: 0;
+}
+.direc1 p:nth-child(2){
+    font-weight: 400;
+}
+.direc1 p:nth-child(3){
+    font-weight: 400;
+}
+.direc2{
+    grid-area: direc2;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    font-weight: 700;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.direc2 p{
+    margin-bottom: 0;
+}
+.direc2 p:nth-child(2){
+    font-weight: 400;
+}
+.direc2 p:nth-child(3){
+    font-weight: 400;
+}
+
+.mapa1{
+    grid-area: mapa1;
+    width: 630px;
+    height: 500px;
+}
+.mapa2{
+    grid-area: mapa2;
+    width: 630px;
+    height: 500px;
+}
+/*EMPIEZA FOOTER*/
+
+footer {
+    height: 180px;
+    width: 100%;
+    background-color: #26348C;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    position: relative;
+}
+footer p{
+    margin: 0;
+}
+footer div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+footer h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0;
+}
+
+.telefonos{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+
+}
+.telefonos li{
+    list-style: none;
+    text-align: center;   
+}
+
+/*.telefonos li:nth-child(2){
+    margin-top: -10px;
+}*/
+.redessociales{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.redessociales li a {
+    margin: 20px;
+} 
+
+.logoRedSoc {
+    width: 50px;
+    
+}
+
+.logoMSN{
+    margin-left: -40px;
+    width: 50px;
+}
+
+
+
+@media(max-width:1270px){
+    /*BARRA NAV*/
+    .navBar li a{
+        font-size: 20px;
+    }
+
+    /*INDEX*/
+    .esloganInicio{
+        height: 180px;
+        width: 100%;
+    }
+    .esloganInicio h1{
+        font-size: 36px;
+    }
+
+    .nclientes{
+        font-size: 32px;
+    }
+    .sliderX ul{
+        margin-bottom: 0;
+    }
+    .carousel{
+        display: flex;
+        justify-content: center;
+        padding-left: 0;
+        margin-bottom: 40px;
+    }
+
+    .carousel-item img{
+        width:180px;
+        height: 180px;
+    }
+    .clientes-slider{
+        gap: 40px;
+    }
+/*      QS*/
+/*CONTACTANOS */
+.Ct h2{
+    font-size: 24px;
+}
+    /*TELEFONOS*/
+
+.telf li{
+    font-size: 20px;
+}
+
+.telf img{
+    width: 50px;
+    height: 50px;
+}
+
+    /*REDES SOCIALES*/
+
+.redessc{
+    font-size: 20px;
+}
+
+.redessc li{
+    margin-bottom: 20px;
+}
+
+.redessc img {
+    width: 35px;
+    height: 35px;
+    margin-right: 20px;
+}
+
+    /*MAPAS*/
+
+.visit1{
+    font-size: 24px;
+}
+
+.mapa1{
+    width: 500px;
+    height: 400px;
+}
+.mapa2{
+    width: 500px;
+    height: 400px;
+}
+
+.direc1{
+    font-size: 18px;
+}
+.direc2{
+    font-size: 18px;
+}
+
+/*FOOTER*/
+
+    .foot-sect{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center ;
+    }
+    .foot-sect p{
+        text-align: center;
+        font-size: 16px;
+    }
+    .foot-sect h3{
+        font-size: 18px;
+    }
+    .telefonos li{
+        font-size: 16px;
+    }
+    .redessociales{
+        padding: 0;
+    }
+
+}
+@media (max-width:1130px) {
+    .mapa1{
+        width: 400px;
+        height: 350px;
+    }
+    .mapa2{
+        width: 400px;
+        height: 350px;
+    }
+}
+@media(max-width:1029px){
+    /*BARRA NAV*/
+
+    .navBar li a{
+        font-size: 16px;
+    }
+
+    /*INDEX*/
+    .esloganInicio{
+        height: 150px;
+        width: 100%;
+    }
+    .esloganInicio h1{
+        font-size: 36px;
+    }
+
+    .nclientes{
+        font-size: 32px;
+    }
+
+    .carousel{
+        margin-bottom: 50px;
+    }
+
+    .carousel-item img{
+        width:120px;
+        height: 120px;
+    }
+    .clientes-slider{
+        gap: 30px;
+    }
+/*      QS*/
+.margQS{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.QSflex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.margQS p{
+    text-align: center;
+    font-size: 16px;
+    margin: 0;
+}
+.titColor {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.asides img{
+    width: 250px;
+    height: 250px;
+}
+
+/*CONTACTANOS */
+.glbCont h1{
+    font-size: 30px;
+}
+.Ct h2{
+    font-size: 20px;
+}
+    /*TELEFONOS*/
+
+.telf li{
+    font-size: 16px;
+}
+
+.telf img{
+    width: 40px;
+    height: 40px;
+}
+
+    /*REDES SOCIALES*/
+
+.redessc{
+    font-size: 16px;
+}
+
+.redessc img {
+    width: 35px;
+    height: 35px;
+    margin-right: 20px;
+}
+.redessc li{
+    font-size: 16px;
+}
+
+    /*MAPAS*/
+
+.visit1{
+    font-size: 24px;
+}
+
+.mapa1{
+    width: 375px;
+    height: 350px;
+}
+.mapa2{
+    width: 375px;
+    height: 350px;
+}
+
+.direc1{
+    font-size: 18px;
+}
+.direc2{
+    font-size: 18px;
+}
+/*FOOTER*/
+    .foot-sect h3{
+        font-size: 16px;
+    }
+    .foot-sect p{
+        font-size: 12px;
+    }
+    .telefonos li{
+        font-size: 12px;
+    }
+    .logoRedSoc{
+        height: 30px;
+        width: 30px;
+    }
+    .logoMSN{
+        height: 30px;
+        width: 30px;
+    }
+
+}
+@media (max-width:850px) {
+    .Ct h2{
+        font-size: 18px;
+    }
+    .redessc{
+        font-size: 14px;
+    }
+    .mapa1{
+        width: 300px;
+        height: 300px;
+    }
+    .mapa2{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+/* TABLET*/
+@media(max-width:792px){
+
+    p{
+        margin: 0;
+    }
+        /*BARRA DE NAVEGACIÓN*/
+    .navbar-desktop{
+        display: none;
+    }
+    
+    header{
+        background-color: #26348C;
+        width:100%;
+        padding-right: 20px;
+    }
+    nav{
+        margin-right: 0;
+    }
+    .navbar-tablet{
+        display: flex;
+        background-color: #26348C;
+        padding: 0;
+        height: auto;
+    }
+    .container-fluid{
+        width: 100%;
+        margin-left: 0;
+        background-color: #26348C;
+    }
+    .navbar button {
+        background-color: white;
+        color: white;
+    }
+    .nav-link{
+        color: black;
+        font-size: 20px;
+        font-weight: 400;
+        display: flex;
+        justify-content: center;
+    }
+    .offcanvas{
+        color: white;
+    }
+
+    .offcanvas-header {
+    border-bottom: solid white 5px;
+    text-align: center;
+    background-color: #26348C;
+    }
+    .offcanvas-title {
+        text-align: center;
+        font-size: 30px;
+    }
+    .offcanvas-body{
+    background-color: rgb(212, 210, 210);
+    padding-top: 0;
+    }
+    .offcanvas-body ul{
+        padding-right: 0;
+    }
+
+    .offcanvas-body li{
+        border-style: solid;
+        border-bottom: white;
+        border-left: none;
+        border-right: none;
+    }
+    .offcanvas-body li:first-child{
+        border: none;
+    }
+    .nav-item{
+        border-style: solid;
+        border-bottom: white;
+        border-top: white;
+        border-left: none;
+        border-right: none;
+    }
+
+
+    .active{
+        color: white;
+        font-weight: 700;
+    }
+    /*TERMINA BARRA DE NAVEGACION*/
+    /* EMPIEZA INDEX*/
+
+    .esloganInicio{
+        height: 150px;
+        width: 100%;
+    }
+    .esloganInicio h1{
+        font-size: 32px;
+        width: 80%;
+        text-align: center;
+    }
+
+    .nclientes{
+        font-size: 24px;
+    }
+    .sliderX ul{
+        margin-bottom: 0;
+    }
+    .carousel{
+        display: flex;
+        justify-content: center;
+        padding-left: 0;
+        margin-bottom: 30px;
+    }
+    .carousel-inner{
+        width: 100%;
+    }
+    .carousel-item img{
+        width:110px;
+        height: 110px;
+    }
+    .clientes-slider{
+        padding-left: 0;
+        gap: 50px;
+    }
+    /*TERMINA INICIO*/
+
+    /*EMPIEZA QUIENES SOMOS*/
+    .margQS h2{
+        font-size: 28px;
+    }
+    .margQS p{
+        font-size: 14px;
+    }
+
+    .asides img{
+        width: 180px;
+        height: 180px;
+    }
+    /*  EMPIEZA CONTACTANOS*/
+    .grid-mapas{
+        display: flex;
+        flex-direction: column;
+        align-items: center ;
+        justify-content: center;
+        width: 100%;
+    }
+    .direc1{
+        margin-right: 20px;
+    }
+    .direc2{
+        margin-right: 20px;
+    }
+    .mapa1{
+        display: flex ;
+        width: 90%;
+        height: 500px;
+    }
+    .mapa2{
+        display: flex;
+        width: 90%;
+        height: 500px;
+    }
+
+/*EMPIEZA FOOTER*/
+    footer{
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+    }
+
+    footer h3{
+        text-align: center;
+        font-size: 18px;
+    }
+    footer div:first-child{
+    margin-left: 2%;
+    margin-right: 2%;
+    justify-self: center;
+    }
+    footer div:nth-child(3){
+    margin-right: 1%;
+    }
+    .logoRedSoc{
+    width: 25px;
+    height: 25px;
+    }
+
+    .logoMSN{
+    width: 25px;
+    height: 25px;
+    }
+
+}
+
+@media(max-width:720px){
+    /*INDEX*/
+    .esloganInicio{
+        height: 150px;
+        width: 100%;
+    }
+    .esloganInicio h1{
+        font-size: 24px;
+    }
+
+    .nclientes{
+        font-size: 24px;
+    }
+
+    .carousel{
+        margin-bottom: 30px;
+    }
+
+    .carousel-item img{
+        width:100px;
+        height: 100px;
+    }
+    .clientes-slider{
+        gap: 30px;
+    }
+    .glbCont h1{
+        display: flex;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 24px;
+        text-align: center;
+    }
+    /*CONTACTANOS*/ 
+
+    .Ct h2{
+        font-size: 15px;
+        text-align: center;
+    }
+    .Ct{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        justify-self: center;
+        width: 100%;
+        gap: 10px 0px;
+        margin: 0;
+        margin-top: 20px;
+        grid-template: 150px 100px / repeat(4,20%);
+        grid-template-areas: 
+        "telf telf grid-red grid-red"
+        ". grid-mail grid-mail ."
+        ;
+    }
+    .telf{
+        grid-area: telf;
+        justify-self: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .grid-mail{
+        grid-area: grid-mail;
+        justify-self: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .grid-red{
+        grid-area: grid-red;
+        justify-self: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+        /*TELEFONOS*/
+    .telf div{
+        display: flex;
+    }
+    .telf li{
+        font-size: 14px;
+    }
+    
+    .telf img{
+        width: 40px;
+        height: 40px;
+    }
+    
+        /*REDES SOCIALES*/
+    
+    .redessc{
+        font-size: 14px;
+    }
+    .redessc li a{
+        display: flex;
+        justify-content: center;
+        justify-self:center;
+    }
+    
+    .redessc li{
+        margin-bottom: 5px;
+        justify-self: center;
+        font-size: 14px;
+    }
+    .redessc img{
+        width: 30px;
+        height: 30px;
+    }
+    .visit1{
+        text-align: center;
+        font-size: 22px;
+    }
+    .direc1{
+        font-size: 14px;
+    }
+    .direc2{
+        font-size: 14px;
+    }
+}
+@media(max-width:600px){
+    /*INDEX*/
+
+    .nclientes{
+        font-size: 20px;
+    }
+
+    .carousel-item img{
+        width:80px;
+        height: 80px;
+    }
+    .clientes-slider{
+        gap: 25px;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .foot-sect{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .foot-sect:nth-child(2){
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .foot-sect:nth-child(3){
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }   
+    .foot-sect h3{
+        font-size: 14px;
+    }
+    .foot-sect p{
+        font-size: 12px;
+    }
+    .telefonos li{
+        font-size: 10px;
+    }
+    .logoRedSoc{
+        height: 20px;
+        width: 20px;
+    }
+    .logoMSN{
+        height: 20px;
+        width: 20px;
+    }
+}
+@media(max-width:500px){
+    /*INDEX*/
+    .esloganInicio{
+        height: 100px;
+        width: 100%;
+    }
+    .esloganInicio h1{
+        font-size: 18px;
+        width: 80%;
+        text-align: center;
+    }
+
+    .nclientes{
+        font-size: 18px;
+    }
+
+    .carousel-item img{
+        width:50px;
+        height: 50px;
+    }
+    .clientes-slider{
+        gap: 20px;
+    }
+    /*qs*/
+    .margQS h2{
+        font-size: 24px;
+    }
+    .margQS p{
+        font-size: 10px;
+    }
+
+    .asides img{
+        width: 120px;
+        height: 120px;
+    }
+    /* CONTACTANOS*/
+    .glbCont h1{
+        font-size: 22px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .visit1{
+        font-size: 18px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    /*footer*/
+    .foot-sect h3{
+        font-size: 14px;
+    }
+    .foot-sect p{
+        font-size: 12px;
+    }
+    .telefonos li{
+        font-size: 10px;
+    }
+    .logoRedSoc{
+        height: 20px;
+        width: 20px;
+    }
+    .logoMSN{
+        height: 20px;
+        width: 20px;
+    }
+}
+@media (max-width:440px){
+    .Ct{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+}
+@media (max-width:320px){
+    /*BARRA DE NAV*/
+    header{
+        height: 40px;
+    }
+    .logo{
+        height: 40px;
+    }
+    .navbar-toggler-icon{
+        width: 20px;
+        height: 20px;
+    }
+    /* INDEX */
+    .banerX{
+        height: 300px;
+    }
+    .banerX img{
+        height: 300px;
+    }
+    .esloganInicio{
+        height: 100px;
+        width: 100%;
+    }
+    .esloganInicio h1{
+        font-size: 16px;
+        width: 80%;
+        text-align: center;
+    }
+
+    .nclientes{
+        font-size: 14px;
+    }
+    .carousel{
+        margin-bottom: 0px;
+    }
+    .carousel-inner{
+        width: 100%;
+    }
+    .carousel-item img{
+        width: 40px;
+        height: 40px;
+    }
+    .clientes-slider{
+        padding-left: 0;
+        gap: 20px;
+    }
+    .carousel-control-prev-icon{
+        width: 15px;
+        height: 30px;
+    }
+    .carousel-control-next-icon{
+        width: 15px;
+        height: 30px;
+    }
+    /*QUIENES SOMOS*/
+    .margQS h2{
+        font-size: 16px;
+    }
+
+    .margQS p{
+        font-size: 10px;
+    }
+
+
+    .asides img{
+        width: 100px;
+        height: 100px;
+    }
+
+    /*FOOTER*/
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .foot-sect:nth-child(2){
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .foot-sect:nth-child(3){
+        margin-bottom: 20px;
+    }
+    .foot-sect h3{
+        font-size: 12px;
+    }
+    .foot-sect p{
+        font-size: 10px;
+    }
+    .telefonos li{
+        font-size: 10px;
+    }
+    .logoRedSoc{
+        height: 25px;
+        width: 25px;
+    }
+    .logoMSN{
+        height: 25px;
+        width: 25px;
+    }
+}

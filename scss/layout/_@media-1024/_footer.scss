@@ -1,0 +1,33 @@
+/*INICIO FOOTER*/
+@media (max-width:1024px){
+footer{
+    height: 180px;
+    font-size: 16px;
+    div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    
+    div:nth-child(3){
+        ul{
+            li{
+                a{
+                    img{
+                        width: 35px;
+                }
+                }
+            }
+        }
+    }
+
+    p{
+        margin: 0;
+    }
+    h3{
+        font-size: 20px;
+    }
+}
+}
+/*FIN DE FOOTER*/

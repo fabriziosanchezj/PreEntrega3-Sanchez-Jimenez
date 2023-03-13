@@ -1,0 +1,82 @@
+/*INICIA CONTACTO*/
+@media (max-width:768px) {
+.glbCont{
+    h1{
+        @include h1-1024;
+        font-size: 28px;    
+        @include centrado-full;
+    }
+    a{
+        font-size: 14px;
+    }
+
+    h2{
+        font-size: 26px;
+    }
+
+}
+
+.Ct{
+    margin-top: 30px;
+    h2{
+        font-size: 18px;
+    }
+    .grid-telf{
+        @include centrado-full;
+        @include grid-contactos;
+            img{
+                width: 50px;
+                height: 50px;
+            }
+    }
+    .grid-red{
+        li{
+            margin-bottom: 20px;
+        }
+        img{
+            width: 30px;
+            height: 30px;
+            margin-right: 20px;
+        }
+    }
+    .grid-mail{
+        img{
+            width: 30px;
+            height: 30px;
+            margin-right: 20px;
+            @include grow;
+        }
+        a{
+            font-size: 14px;
+        }
+    }
+}
+
+.grid-mapas{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: center;
+    width: 100%;
+    gap: 25px;
+
+    .direc1{
+        margin-right: 20px;
+    }
+    .direc2{
+        margin-right: 20px;
+    }
+    .mapa1{
+        display: flex ;
+        width: 90%;
+        height: 500px;
+    }
+    .mapa2{
+        display: flex;
+        width: 90%;
+        height: 500px;
+    }
+}
+
+
+}

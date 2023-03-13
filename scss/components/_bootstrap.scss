@@ -1,0 +1,34 @@
+/*BOOTSTRAP*/
+.carousel{
+    margin-bottom: 100px;
+    & .carousel-inner{
+        div{
+            transition: none;
+            ul{
+                justify-content: center;
+                gap: 100px;
+                list-style: none;
+                padding-left: 0;
+
+                img{
+                    width: 200px;
+                    height: 200px;
+                    padding: -30px;
+                }
+            }
+        }
+    }
+}
+.circle50 {
+    img{
+    border-radius: 50%;
+}
+}
+
+.carousel-control-next-icon{
+    background-color: #26348C ;
+}
+.carousel-control-prev-icon{
+    background-color: #26348C ;
+}
+/*FIN BOOTSTRAP*/
