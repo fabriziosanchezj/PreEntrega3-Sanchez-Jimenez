@@ -715,11 +715,11 @@
       font-weight: 400; }
   .grid-mapas .mapa1 {
     grid-area: mapa1;
-    width: 630px;
+    width: 500px;
     height: 500px; }
   .grid-mapas .mapa2 {
     grid-area: mapa2;
-    width: 630px;
+    width: 500px;
     height: 500px; }
 
 /*INICIO FOOTER*/
@@ -1318,7 +1318,7 @@ footer {
 
 /*FIN DE LONAS*/
 /*INICIA CONTACTO*/
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .glbCont h1 {
     font-size: 36px;
     font-weight: 700;
@@ -1412,7 +1412,7 @@ footer {
 
 /*FIN DE FOOTER*/
 /*MOBILE L 425px*/
-@media (max-width: 768px) {
+@media (max-width: 425px) {
   .navbar-desktop {
     display: none; }
   header {
@@ -1717,7 +1717,7 @@ footer {
 
 /*FIN DE LONAS*/
 /*INICIA CONTACTO*/
-@media (max-width: 425px) {
+@media (max-width: 715px) {
   .glbCont {
     margin: 0; }
     .glbCont h1 {
