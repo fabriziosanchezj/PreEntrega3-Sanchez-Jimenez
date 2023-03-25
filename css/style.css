@@ -784,13 +784,13 @@ footer {
 /*FIN DE FOOTER*/
 /*LAPTOP 1024px*/
 /*INICIO DE HEADER*/
-@media (max-width: 1024px) {
+@media (max-width: 1120px) {
   .navbar-desktop img {
     height: 90px; }
   .navbar-desktop nav ul li a {
-    font-size: 18px; }
+    font-size: 16px; }
     .navbar-desktop nav ul li a:hover {
-      font-size: 17px; } }
+      font-size: 15px; } }
 
 .navbar-tablet {
   display: none; }
@@ -1064,7 +1064,7 @@ footer {
 
 /*FIN DE FOOTER*/
 /*TABLET 768px*/
-@media (max-width: 768px) {
+@media (max-width: 903px) {
   .navbar-desktop {
     display: none; }
   header {
