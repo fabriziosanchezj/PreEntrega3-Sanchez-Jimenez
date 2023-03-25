@@ -935,7 +935,7 @@ footer {
 
 /*FIN DE SERVICIOS*/
 /* INICIA LONAS*/
-@media (max-width: 1024px) {
+@media (max-width: 1082px) {
   .globalLonas {
     margin-bottom: 3%; }
     .globalLonas h1 {
@@ -1243,7 +1243,7 @@ footer {
 
 /*FIN DE SERVICIOS*/
 /* INICIA LONAS*/
-@media (max-width: 768px) {
+@media (max-width: 980px) {
   .globalLonas {
     margin-bottom: 3%; }
     .globalLonas h1 {
@@ -1251,70 +1251,70 @@ footer {
       margin-bottom: 0;
       margin-top: 15px; }
     .globalLonas h2 {
-      font-size: 20px;
+      font-size: 18px;
       margin-bottom: 10px; }
     .globalLonas .notasLonas {
-      font-size: 11px; }
+      font-size: 10px; }
     .globalLonas .grid-lonas {
       grid-template-columns: 30% repeat(3, 1fr);
       margin-left: 5%;
       margin-right: 5%; }
       .globalLonas .grid-lonas h3 {
-        font-size: 16px; }
+        font-size: 14px; }
   /*DESCRIPCIÓN*/
   .desc1 {
-    font-size: 12px; }
+    font-size: 11px; }
   .desc2 {
-    font-size: 12px; }
+    font-size: 11px; }
   .desc3 {
-    font-size: 12px; }
+    font-size: 11px; }
   .desc4 {
-    font-size: 12px; }
+    font-size: 11px; }
   .desc5 {
-    font-size: 12px; }
+    font-size: 11px; }
   .desc6 {
-    font-size: 12px; }
+    font-size: 11px; }
   .desc7 {
-    font-size: 12px; }
+    font-size: 11px; }
   .desc8 {
-    font-size: 12px; }
+    font-size: 11px; }
   .desc9 {
-    font-size: 12px; }
+    font-size: 11px; }
   /* UNIDAD */
   .unid1 {
-    font-size: 12px; }
+    font-size: 11px; }
   .unid2 {
-    font-size: 12px; }
+    font-size: 11px; }
   .unid3 {
-    font-size: 12px; }
+    font-size: 11px; }
   .unid4 {
-    font-size: 12px; }
+    font-size: 11px; }
   .unid5 {
-    font-size: 12px; }
+    font-size: 11px; }
   .unid6 {
-    font-size: 12px; }
+    font-size: 11px; }
   /* PRECIO */
   .precio1 {
-    font-size: 12px; }
+    font-size: 11px; }
   .precio2 {
-    font-size: 12px; }
+    font-size: 11px; }
   .precio3 {
-    font-size: 12px; }
+    font-size: 11px; }
   .precio4 {
-    font-size: 12px; }
+    font-size: 11px; }
   .precio5 {
-    font-size: 12px; }
+    font-size: 11px; }
   .precio6 {
-    font-size: 12px; }
+    font-size: 11px; }
   .precio7 {
-    font-size: 12px; }
+    font-size: 11px; }
   .precio8 {
-    font-size: 12px; }
+    font-size: 11px; }
   /* OBSERVACIONES */
   .observ1 {
-    font-size: 12px; }
+    font-size: 11px; }
   .observ2 {
-    font-size: 12px; } }
+    font-size: 11px; } }
 
 /*FIN DE LONAS*/
 /*INICIA CONTACTO*/
@@ -1642,7 +1642,7 @@ footer {
 
 /*FIN DE SERVICIOS*/
 /* INICIA LONAS*/
-@media (max-width: 425px) {
+@media (max-width: 530px) {
   .globalLonas {
     margin-bottom: 3%; }
     .globalLonas h1 {
@@ -1650,70 +1650,70 @@ footer {
       margin-bottom: 0;
       margin-top: 15px; }
     .globalLonas h2 {
-      font-size: 16px;
+      font-size: 15px;
       margin-bottom: 10px; }
     .globalLonas .notasLonas {
-      font-size: 10px; }
+      font-size: 9px; }
     .globalLonas .grid-lonas {
       grid-template-columns: 30% repeat(3, 1fr);
       margin-left: 5%;
       margin-right: 5%; }
       .globalLonas .grid-lonas h3 {
-        font-size: 14px; }
+        font-size: 12px; }
   /*DESCRIPCIÓN*/
   .desc1 {
-    font-size: 11px; }
+    font-size: 10px; }
   .desc2 {
-    font-size: 11px; }
+    font-size: 10px; }
   .desc3 {
-    font-size: 11px; }
+    font-size: 10px; }
   .desc4 {
-    font-size: 11px; }
+    font-size: 10px; }
   .desc5 {
-    font-size: 11px; }
+    font-size: 10px; }
   .desc6 {
-    font-size: 11px; }
+    font-size: 10px; }
   .desc7 {
-    font-size: 11px; }
+    font-size: 10px; }
   .desc8 {
-    font-size: 11px; }
+    font-size: 10px; }
   .desc9 {
-    font-size: 11px; }
+    font-size: 10px; }
   /* UNIDAD */
   .unid1 {
-    font-size: 11px; }
+    font-size: 10px; }
   .unid2 {
-    font-size: 11px; }
+    font-size: 10px; }
   .unid3 {
-    font-size: 11px; }
+    font-size: 10px; }
   .unid4 {
-    font-size: 11px; }
+    font-size: 10px; }
   .unid5 {
-    font-size: 11px; }
+    font-size: 10px; }
   .unid6 {
-    font-size: 11px; }
+    font-size: 10px; }
   /* PRECIO */
   .precio1 {
-    font-size: 11px; }
+    font-size: 10px; }
   .precio2 {
-    font-size: 11px; }
+    font-size: 10px; }
   .precio3 {
-    font-size: 11px; }
+    font-size: 10px; }
   .precio4 {
-    font-size: 11px; }
+    font-size: 10px; }
   .precio5 {
-    font-size: 11px; }
+    font-size: 10px; }
   .precio6 {
-    font-size: 11px; }
+    font-size: 10px; }
   .precio7 {
-    font-size: 11px; }
+    font-size: 10px; }
   .precio8 {
-    font-size: 11px; }
+    font-size: 10px; }
   /* OBSERVACIONES */
   .observ1 {
-    font-size: 11px; }
+    font-size: 10px; }
   .observ2 {
-    font-size: 11px; } }
+    font-size: 10px; } }
 
 /*FIN DE LONAS*/
 /*INICIA CONTACTO*/
@@ -1865,67 +1865,67 @@ footer {
       font-size: 16px;
       margin-bottom: 10px; }
     .globalLonas .notasLonas {
-      font-size: 10px; }
+      font-size: 8px; }
     .globalLonas .grid-lonas {
       grid-template-columns: 30% repeat(3, 1fr);
       margin-left: 5%;
       margin-right: 5%; }
       .globalLonas .grid-lonas h3 {
-        font-size: 12px; }
+        font-size: 10px; }
   /*DESCRIPCIÓN*/
   .desc1 {
-    font-size: 10px; }
+    font-size: 9px; }
   .desc2 {
-    font-size: 10px; }
+    font-size: 9px; }
   .desc3 {
-    font-size: 10px; }
+    font-size: 9px; }
   .desc4 {
-    font-size: 10px; }
+    font-size: 9px; }
   .desc5 {
-    font-size: 10px; }
+    font-size: 9px; }
   .desc6 {
-    font-size: 10px; }
+    font-size: 9px; }
   .desc7 {
-    font-size: 10px; }
+    font-size: 9px; }
   .desc8 {
-    font-size: 10px; }
+    font-size: 9px; }
   .desc9 {
-    font-size: 10px; }
+    font-size: 9px; }
   /* UNIDAD */
   .unid1 {
-    font-size: 10px; }
+    font-size: 9px; }
   .unid2 {
-    font-size: 10px; }
+    font-size: 9px; }
   .unid3 {
-    font-size: 10px; }
+    font-size: 9px; }
   .unid4 {
-    font-size: 10px; }
+    font-size: 9px; }
   .unid5 {
-    font-size: 10px; }
+    font-size: 9px; }
   .unid6 {
-    font-size: 10px; }
+    font-size: 9px; }
   /* PRECIO */
   .precio1 {
-    font-size: 10px; }
+    font-size: 9px; }
   .precio2 {
-    font-size: 10px; }
+    font-size: 9px; }
   .precio3 {
-    font-size: 10px; }
+    font-size: 9px; }
   .precio4 {
-    font-size: 10px; }
+    font-size: 9px; }
   .precio5 {
-    font-size: 10px; }
+    font-size: 9px; }
   .precio6 {
-    font-size: 10px; }
+    font-size: 9px; }
   .precio7 {
-    font-size: 10px; }
+    font-size: 9px; }
   .precio8 {
-    font-size: 10px; }
+    font-size: 9px; }
   /* OBSERVACIONES */
   .observ1 {
-    font-size: 10px; }
+    font-size: 9px; }
   .observ2 {
-    font-size: 10px; } }
+    font-size: 9px; } }
 
 /*FIN DE LONAS*/
 /*INICIA CONTACTO*/
@@ -2083,58 +2083,58 @@ footer {
         font-size: 10px; }
   /*DESCRIPCIÓN*/
   .desc1 {
-    font-size: 9px; }
+    font-size: 8px; }
   .desc2 {
-    font-size: 9px; }
+    font-size: 8px; }
   .desc3 {
-    font-size: 9px; }
+    font-size: 8px; }
   .desc4 {
-    font-size: 9px; }
+    font-size: 8px; }
   .desc5 {
-    font-size: 9px; }
+    font-size: 8px; }
   .desc6 {
-    font-size: 9px; }
+    font-size: 8px; }
   .desc7 {
-    font-size: 9px; }
+    font-size: 8px; }
   .desc8 {
-    font-size: 9px; }
+    font-size: 8px; }
   .desc9 {
-    font-size: 9px; }
+    font-size: 8px; }
   /* UNIDAD */
   .unid1 {
-    font-size: 9px; }
+    font-size: 8px; }
   .unid2 {
-    font-size: 9px; }
+    font-size: 8px; }
   .unid3 {
-    font-size: 9px; }
+    font-size: 8px; }
   .unid4 {
-    font-size: 9px; }
+    font-size: 8px; }
   .unid5 {
-    font-size: 9px; }
+    font-size: 8px; }
   .unid6 {
-    font-size: 9px; }
+    font-size: 8px; }
   /* PRECIO */
   .precio1 {
-    font-size: 9px; }
+    font-size: 8px; }
   .precio2 {
-    font-size: 9px; }
+    font-size: 8px; }
   .precio3 {
-    font-size: 9px; }
+    font-size: 8px; }
   .precio4 {
-    font-size: 9px; }
+    font-size: 8px; }
   .precio5 {
-    font-size: 9px; }
+    font-size: 8px; }
   .precio6 {
-    font-size: 9px; }
+    font-size: 8px; }
   .precio7 {
-    font-size: 9px; }
+    font-size: 8px; }
   .precio8 {
-    font-size: 9px; }
+    font-size: 8px; }
   /* OBSERVACIONES */
   .observ1 {
-    font-size: 9px; }
+    font-size: 8px; }
   .observ2 {
-    font-size: 9px; } }
+    font-size: 8px; } }
 
 /*FIN DE LONAS*/
 /*INICIA CONTACTO*/

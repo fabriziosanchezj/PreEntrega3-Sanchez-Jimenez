@@ -1,5 +1,5 @@
 /* INICIA LONAS*/
-@media (max-width:425px){
+@media (max-width:530px){
     .globalLonas{
         margin-bottom: 3%;
         h1{
@@ -8,18 +8,18 @@
             margin-top: 15px;
         }
         h2{
-            font-size: 16px;
+            font-size: 15px;
             margin-bottom: 10px;
         }
         .notasLonas{
-            font-size: 10px;
+            font-size: 9px;
         }
         .grid-lonas{
             grid-template-columns: 30% repeat(3,1fr);
             margin-left: 5%;
             margin-right: 5%;
             h3{
-                font-size: 14px;
+                font-size: 12px;
             }
     
         }
